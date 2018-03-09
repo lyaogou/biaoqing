@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{311559FC-9B7F-D825-FB82-B76AF7FB3FB0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/app/Unity5.5.1/install/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/app/Unity5.5.1/install/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Prefabs\Elementals\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Prefabs\Elementals\Scripts\TestParticles.cs" />
+     <Compile Include="Assets\Scripts\AT_MathUtil.cs" />
+     <Compile Include="Assets\Scripts\AT噪声偏移.cs" />
+     <Compile Include="Assets\Scripts\AT噪声尺寸.cs" />
+     <Compile Include="Assets\Scripts\AT噪声旋转.cs" />
+     <Compile Include="Assets\Scripts\VideoTest.cs" />
+     <Compile Include="Assets\Scripts\文字发射\changeText.cs" />
+     <Compile Include="Assets\Scripts\文字发射\fashe.cs" />
+     <Compile Include="Assets\Scripts\文字发射\hero_anima.cs" />
+     <Compile Include="Assets\Scripts\文字发射\text1.cs" />
+     <Compile Include="Assets\Scripts\点击.cs" />
+     <Compile Include="Assets\Scripts\选择键.cs" />
+     <None Include="Assets\StreamingAssets\lbpcascades\lbpcascade_silverware.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_frontalcatface_extended.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_frontalface_alt2.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_eye_tree_eyeglasses.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_lowerbody.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_frontalface_alt.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_profileface.xml" />
+     <None Include="Assets\Double_face\Normal-VertexLit.shader" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_licence_plate_rus_16stages.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_russian_plate_number.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_smile.xml" />
+     <None Include="Assets\StreamingAssets\lbpcascades\lbpcascade_frontalcatface.xml" />
+     <None Include="Assets\StreamingAssets\lbpcascades\lbpcascade_frontalface.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_upperbody.xml" />
+     <None Include="Assets\Prefabs\Elementals\!Readme.txt" />
+     <None Include="Assets\StreamingAssets\lbpcascades\lbpcascade_profileface.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_frontalface_alt_tree.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_frontalcatface.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_eye.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_fullbody.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_righteye_2splits.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_frontalface_default.xml" />
+     <None Include="Assets\StreamingAssets\haarcascades\haarcascade_lefteye_2splits.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/app/Unity5.5.1/install/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/app/Unity5.5.1/install/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>D:/app/Unity5.5.1/install/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/app/Unity5.5.1/install/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/app/Unity5.5.1/install/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/app/Unity5.5.1/install/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp.Blob">
+ <HintPath>D:/programs/unity/demo2/Assets/Plugins/OpenCvSharp/lib/net20/OpenCvSharp.Blob.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp">
+ <HintPath>D:/programs/unity/demo2/Assets/Plugins/OpenCvSharp/lib/net20/OpenCvSharp.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
